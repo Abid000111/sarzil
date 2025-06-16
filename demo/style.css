@@ -16,42 +16,32 @@ body {
 nav {
 	height: 59px;
 	width: 100vw;
-	background-color: rgb(102, 85, 85);
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 15px;
 	margin-bottom: 15px;
 }
 
 #side_nav {
 	display: flex;
-	gap: 25px;
+	gap: 50px;
 }
 
 .nav_btn {
 	padding: 15px;
 	border: none;
 	border-radius: 20px;
-	background-color: green;
+	background-color: rgb(128, 0, 0);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
 }
 
-.nav_btn:hover {
-	background-color: white;
-	color: black;
-	scale: 1.1;
-	transition: 0.5s;
-	font-weight: bold;
-}
-
-#content {
+#CONTENT {
 	height: 10vh;
-	width: 30vw;
-
-	background-color: rgba(255, 255, 0, 0.74);
+	width: 50vw;
+	background-color: #67d826;
 	color: black;
 	font-size: 35px;
 	font-weight: bold;
